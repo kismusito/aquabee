@@ -1,0 +1,226 @@
+.design-main-page {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../img/home-bg-compressor.jpg');
+    background-repeat: no-repeat;
+    background-position: center top -18.4411rem;
+    background-size: 100% auto;
+    zoom: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-aqua-logo {
+    position: relative;
+    width: 1100px;
+}
+
+.logo-main-page {
+    position: relative;
+    width: 966px;
+    display: flex;
+    justify-content: center;
+}
+
+.aqua-logo {
+   position: absolute;
+   height: 120px;
+   left: 180px;
+   top: 150px;
+   z-index: 2;
+   animation: aqua_letter 3s ease-out;
+}
+
+.penguin-logo {
+    position: relative;
+    height: 400px;
+    left: 32%;
+    z-index: 10;
+    animation: penguin .5s infinite alternate ease-out;
+}
+
+.bee-logo {
+    position: absolute;
+    height: 120px;
+    right: 230px;
+    top: 120px;
+    z-index: 20;
+    animation: bee 3s ease-out;
+
+}
+
+.slogan-logo {
+    position: absolute;
+    height: 50px;
+    left: 280px;
+    top: 280px;
+    z-index: 20;
+    color: white;
+    animation: world 3s ease-out;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 120px;;
+}
+
+.navigation-container {
+    margin: 0 auto;
+    width: 1400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    color: white;
+    font-size: 1.5em;
+}
+
+.brand > a {
+    color: white;
+}
+
+.btn-home {
+    font-weight: bold;
+    margin: 0 5px;
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    transition: all .4s;
+}
+
+.btn-home:hover {
+    background-color: white;
+    color: rgb(31, 31, 31)
+}
+
+.auth-action-design {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 1px 2px 5px 0 #0000008f;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-news-aquabee {
+    width: 50%;
+    padding: 120px 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.562);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.form-desing {
+    width: 100%;
+}
+
+.form-design-main {
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%
+}
+
+.quote-day-aquabee {
+    margin-top: 3px;
+}
+
+.header-form {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.form-group {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.form-control {
+    width: 100%;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    border: 0;
+    border-bottom: 1px solid rgba(105, 105, 105, 0.623);
+    outline: none;
+}
+
+.btn-auth {
+    background-color:   #048DB8;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: all .5s
+}
+
+.btn-auth:hover {
+    background-color:   rgb(72, 173, 204);
+}
+
+@keyframes penguin {
+    from {
+        top: -10px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+@keyframes bee {
+    from {
+        opacity: 0;
+        right: 210px; 
+    }
+
+    to {
+        opacity: 1;
+        right: 230px;
+    }
+}
+
+@keyframes aqua_letter {
+    from {
+        opacity: 0;
+        left: 160px;
+    }
+
+    to {
+        opacity: 1;
+        left: 180px;
+    }
+}
+
+@keyframes world {
+    from {
+        opacity: 0;
+        top: 300px;
+    }
+
+    to {
+        opacity: 1;
+        top: 280px;
+    }
+}

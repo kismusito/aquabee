@@ -1,0 +1,99 @@
+.card-contrat {
+    width: 800px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-main);
+    background-color: var(--white);
+}
+
+.card-header-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-responsive {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table-responsive th {
+    padding: .75rem;
+    background-color: var(--blue);
+    color: var(--white);
+    text-align: center;
+}
+
+.table-responsive tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+.table-responsive td {
+    padding: .75rem;
+}
+
+.table-actions ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.table-actions li {
+    list-style: none;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    color: crimson;
+}
+
+.house_information {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data_information {
+    width: 45%;
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.model_information {
+    width: 50%;
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.model_information > iframe {
+    width: 500px;
+    height: 300px;
+}
+
+.consumo_report {
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.alert {
+    background-color: var(--blue);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.datos_consumo {
+    background-color: var(--white);
+    padding: 20px;
+    width: 100%;
+}
